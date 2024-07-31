@@ -149,6 +149,10 @@ class AnalisadorLexico:
             print(self.tabela_simbolos)
             print(self.log)
 
+            df = pd.DataFrame(self.tabela_simbolos, columns=['TIPO', 'LEXEMA', 'LINHA'])
+            df.to_csv('dados.csv', index=False)
+
+
         elif self.tipo_is_digito(self.caractere):
 
             self.q1()

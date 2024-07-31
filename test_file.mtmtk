@@ -1,6 +1,4 @@
-variavel1 = 3;
-variavel2 = 6.44;
 
-variavel3 = variavel1 + variavel2;
-
-SE variavel3 MAIOR variavel2{IMPRIMA((variavel1 OU variavel2) DIFERENTE variavel3)}
+ENQUANTO variavel1 MENORIGUAL variavel2{
+    IMPRIMA(variavel1)
+}
