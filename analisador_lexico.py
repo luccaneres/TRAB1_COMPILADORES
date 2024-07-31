@@ -2,9 +2,8 @@ import os
 import tkinter as tk
 from tkinter import filedialog
 
-
-
-
+#BRUNOMAION
+#NORMIE
 
 class PreProcessor:
 
