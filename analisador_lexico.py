@@ -1,6 +1,7 @@
 import os
 import tkinter as tk
 from tkinter import filedialog
+import pandas as pd
 
 #BRUNOMAION
 #NORMIE
@@ -150,7 +151,7 @@ class AnalisadorLexico:
             print(self.log)
 
             df = pd.DataFrame(self.tabela_simbolos, columns=['TIPO', 'LEXEMA', 'LINHA'])
-            df.to_csv('dados.csv', index=False)
+            df.to_csv('dados.csv', index=False, sep=";")
 
 
         elif self.tipo_is_digito(self.caractere):
