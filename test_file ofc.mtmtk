@@ -1,0 +1,9 @@
+REAL variavel1 = 2.2;
+INTEIRO variavel2 = 2;
+REAL variavel3 = 4.2;
+
+REAL variavel4;
+
+VARIAVEL3 = variavel1 + variavel2;
+
+IMPRIME(variavel3 IGUAL variavel4);
