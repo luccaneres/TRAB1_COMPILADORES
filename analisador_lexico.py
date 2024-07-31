@@ -144,7 +144,7 @@ class AnalisadorLexico:
         self.caractere = self.obter_caractere()
         self.atualizar_log('Q0', self.caractere)
 
-        if self.posicao_cabeca == len(self.file_content):
+        if self.caractere == '\n' and self.posicao_cabeca == len(self.file_content):
 
             print(self.tabela_simbolos)
             print(self.log)
