@@ -10,7 +10,8 @@ class PreProcessor:
 
     def __init__(self) -> None:
 
-        self.file_directory = 'test_file.mtmtk'
+        #self.file_directory = 'test_file.mtmtk'
+        self.file_directory = input("INSIRA O NOME DO ARQUIVO: ")
         self.text_file = open(f'{self.file_directory}', 'r')
         self.file_content = self.text_file.read()
 
